@@ -32,7 +32,7 @@
     "@sanity/image-url": "^1.0.2",
     "@sanity/orderable-document-list": "^1.2.1",
     "@sanity/ui": "^2.6.1",
-    "@sanity/vision": "^3.48.1",
+    "@sanity/vision": "^3.62.0",
     "@stripe/react-stripe-js": "^2.8.1",
     "@stripe/stripe-js": "^4.8.0",
     "@tinloof/sanity-studio": "^1.4.0",
@@ -52,6 +52,7 @@
     "react-remove-scroll": "^2.6.0",
     "sanity": "^3.62.0",
     "sanity-plugin-hotspot-array": "^2.0.0",
+    "styled-components": "6",
     "zod": "^3.23.8"
   },
   "devDependencies": {

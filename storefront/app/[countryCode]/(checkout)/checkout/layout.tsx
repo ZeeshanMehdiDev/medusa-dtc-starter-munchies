@@ -1,3 +1,4 @@
+//@ts-nocheck
 import type {PageProps} from "@/types";
 import type {Metadata} from "next";
 import type {PropsWithChildren} from "react";

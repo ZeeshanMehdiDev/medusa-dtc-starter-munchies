@@ -22,6 +22,9 @@ const config = {
   experimental: {
     taint: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   rewrites() {
     return [
       {

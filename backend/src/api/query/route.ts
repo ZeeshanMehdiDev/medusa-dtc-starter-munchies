@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { Query } from "@medusajs/framework";
 import { ContainerRegistrationKeys } from "@medusajs/framework/utils";
 

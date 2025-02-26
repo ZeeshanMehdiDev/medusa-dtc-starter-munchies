@@ -1,3 +1,4 @@
+//@ts-nocheck
 import type {PageProps} from "@/types";
 import type {TEXT_PAGE_QUERYResult} from "@/types/sanity.generated";
 import type {ResolvingMetadata} from "next";

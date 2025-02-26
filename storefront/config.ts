@@ -9,19 +9,19 @@ const baseUrl = baseUrlWithoutProtocol
 
 const config = {
   backendUrl:
-    process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL || "http://localhost:9000/store",
+    process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL || "http://localhost:9000",
   baseUrl,
   defaultCountryCode: "us",
   sanity: {
-    apiVersion: process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2023-06-21",
+    apiVersion: process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2023-02-26",
     dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "",
     projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "",
     revalidateSecret: process.env.SANITY_REVALIDATE_SECRET || "",
-    studioUrl: "/cms",
+    studioUrl: "/studio",
     // Not exposed to the front-end, used solely by the server
     token: process.env.SANITY_API_TOKEN || "",
   },
-  siteName: "Munchies",
+  siteName: "Double Chunk",
 };
 
 export default config;
